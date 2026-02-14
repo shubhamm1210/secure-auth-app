@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://secure-auth-backend-fx2c.onrender.com/api",
 });
 
 // 🔥 auto attach token
